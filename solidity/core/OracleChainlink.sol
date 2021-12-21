@@ -28,7 +28,4 @@ contract OracleChainlink is OracleBase {
     function getSupportedAssets() override view external returns (string []memory _base, string[] memory _quote){
 
     }
-
-
-
 }
